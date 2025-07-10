@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="es"> <!--<![endif]-->
+
+	<head>
+	    <!-- Your Basic Site Informations -->
+		<title>Techsoft</title>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+        <!--leafbox-->
+	    <link type="text/css" rel="stylesheet" href="https://techsoft.com.ec/css/leafbox.css"/>
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/cubeportfolio.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"  />
+
+		<!-- REVOLUTION BANNER CSS SETTINGS -->
+		<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+		<!-- Google fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		
+		<!-- Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" />
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+		<script type="text/javascript">
+		    function ajax() {
+		        var a = document.getElementById('contact_name').value;
+		        var b = document.getElementById('contact_email').value;
+		        var c = document.getElementById('contact_subject').value;
+		        var e = document.getElementById('contact_message').value;
+
+
+
+		        var x;
+		        if (window.XMLHttpRequest) {
+		            x = new XMLHttpRequest();
+		        }
+		        else {
+		            x = new ActiveXObject("Microsoft.XMLHTTP");
+		        }
+
+		        x.open("GET", "contact.php?name=" + a + "& email=" + b + "& subject=" + c + "& message=" + e, true);
+
+		        x.send();
+
+		        x.onreadystatechange = function () {
+		            if (x.readyState == 4 && x.status == 200) {
+		                document.getElementById("p1").innerHTML = x.responseText;
+		            }
+		        }
+		    }
+
+		</script>
+	</head>
+	<body>
+        
+		<section class="page-text">
+			<div class="top-bar">
+			</div>
+		    
+            <nav id="menuPrincipal" class="navbar navbar-default" role="navigation">
+		    </nav>
+
+       <h2 style="margin: 25px; text-align: center; font-size: 55px;"><span class="color">ARQUITECTURA</span></h2>
+       <div class="tp-banner-container">
+		<div class="tp-banner" >
+            
+			<ul>
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1300" >
+					
+					<div class="tp-caption customin customout "
+							data-x="200"
+							data-y="15"
+
+							data-customin="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+							data-customout="x:0;y:200;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+
+							data-start="400"
+							data-speed="600"
+							data-easing="Linear.easeIn"
+
+							data-endspeed="600"
+							data-endeasing="Linear.easeNone"
+							style="z-index:6"
+							><img src="https://techsoft.com.ec/Imagenes/arqSys2.png" alt="" />
+						</div>
+						
+						<div class="tp-caption medium_bg_red sfr skewfromleftshort customout"
+						data-x="-50"
+						data-y="96"
+						
+						data-customout="x:-200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1900"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Cliente / Servidor
+						</div>
+					
+						<div class="tp-caption medium_bg_red sfr skewfromleftshort customout"
+						data-x="-50"
+						data-y="156"
+						data-customout="x:-200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="2100"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Microsoft Visual Studio .Net
+						</div>
+						
+						<div class="tp-caption medium_bg_red sfr skewfromleftshort customout"
+						data-x="-50"
+						data-y="216"
+						data-customout="x:-200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="2300"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Interfaces Windows y Web.
+						</div>
+
+                        <div class="tp-caption medium_bg_red sfr skewfromrightshort customout"
+						data-x="right" data-hoffset="50"
+						data-y="96"
+						
+						data-customout="x:200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="1900"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Servicio de Componentes COM+
+						</div>
+						
+						<div class="tp-caption medium_bg_red sfr skewfromrightshort customout"
+						data-x="right" data-hoffset="50"
+						data-y="156"
+						data-customout="x:200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="2100"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Base de datos SQL Server 2012
+						</div>
+						
+						<div class="tp-caption medium_bg_red sfr skewfromrightshort customout"
+						data-x="right" data-hoffset="50"
+						data-y="216"
+						data-customout="x:200;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="500"
+						data-start="2300"
+						data-easing="Power4.easeOut"
+						data-endspeed="500"
+						data-captionhidden="off"
+						style="z-index: 5">Crystal Report 11.5 (Reportes)
+						</div>
+						
+				</li>
+				</ul>
+		</div>
+	</div>
+            
+		</section>
+
+       <p id="Modulos" style="margin:0 0 0px"></p>
+         <section class="typo" style="background:#4d9ae2">
+					
+				<div class="container">
+					<div class="col-md-12">
+						<div class="heading-pricing">
+						<h1>MODULOS </h1>
+						
+					</div>
+					<br>
+					
+					<div class="col-md-6 a-t">
+						<div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i>Tarjetas de Crédito
+							</a>
+						  </h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+                            Administra integralmente la operativa de la tarjeta y constituye el módulo central de SysCards. Relevantes conceptos como: Multi-Empresa, Multi-Moneda, Multi-Marca, Gestiones Operativas, Incentivos-Puntos, Bines, productos, crédito rotativo, crédito diferido/extrafinanciamiento, etc. Este módulo cuenta con los sub-módulos:  Parámetros,Aplicativo,Gestiones,Incentivos,Renovaciones,BackOffice
+                            <br />
+                              <br />
+                            Un completo set de Parámetros, hacen de este módulo una potente herramienta para ingresar las diferentes reglas del negocios, entre las más relevantes:
+                            <br />
+                              <p style="margin-left:35px">
+                            •	Administración de tarjetas de distintas marcas para un mismo cliente: Mastercard, Visa, Amex, tarjetas propietarias o cerradas.
+                              <br />
+                            •	Diferentes costos/tasas por Moneda, Marca, Bin, Producto, Categoría, Segmento. 
+                              <br />
+                            •	Diferidos/Extrafinanciamientos con periodos de gracia, con y sin intereses, plazos.
+                              <br />
+                            •	Capitalización de intereses diario o mensual.
+                              <br />
+                            •	Cupos o Limites de créditos rotativo o diferido para tarjetas principales o adicionales.
+                              <br />
+                            •	Administración de Tarjetas de Débito Electrón o Maestro para un mismo cliente. 
+                              <br />
+                            •	Para venta masiva, pre-emisión de tarjetas y pre-aprobaciones de tarjetas. 
+                              <br />
+                            •	Diferentes ciclos de facturación.
+                              <br />
+                            •	Costos automáticos por tipos de transacciones.
+                              <br />
+                            •	Mensajes en estado de cuenta de acuerdo al estado de la cuenta y montos vencidos.
+                              <br />
+                            •	Parámetros de consumos/excepción por Estado de Tarjeta y Estado de la Cuenta.
+                              <br />
+                            •	Conformación del número de tarjeta de acuerdo a los dígitos requeridos.
+                              <br />
+                            •	Comisiones a comercios de acuerdo Marca, categoría, bin, producto.
+                              <br />
+                            •	Opciones de reprogramación de deudas. 
+                              <br />
+                            •	Prioridades en la aplicación de pagos.
+                              <br />
+                            •	Contabilización: transacciones, Incoming, OutGoing, Comercios, facturación.
+                                  </p>
+                              <br />  <br />
+                            En Aplicativo encontramos la consulta de saldos, la cual muestra una visión completa e integrada del cliente, sus datos personales, cuentas, saldos, transacciones e histórico de hasta 12 meses, diferidos activos/cancelados, saldos de puntos, ciclo de vida del plástico, saldo por transacción, limites de actividad, detalle pago mínimo, incoming, outgoing, etc.  
+                              <br />  <br />
+                            Manejo de Tarjetas pre-pago, asignación de costos gratis por cliente, ingreso de pagos recurrentes (seguros, asistencias, etc...), cambio de pin, control de estados de cuenta, digitación de vouchers, firmas, fotos y documentos hacen de este sub-módulo el más usado por los usuarios operativos y atención a clientes.
+                              <br />  <br />
+                            En Gestiones se resuelven de manera ordenada y canalizada los requerimientos y novedades (trámites) que presentan los clientes. Usuarios que ingresan y Usuarios que resuelven trámites son pre-autorizados por el administrador del sistema. Ejemplo de tramites: Cambio de estados, reclamos de transacciones, cambio de cupos/limites, cambio ciclo de facturación, etc.,  Los tramites permanecen en el histórico, así como todas las novedades o cambios que se efectuaron sobre la cuenta o datos del cliente.
+                              <br />  <br />
+                            Buscar lealtad de los clientes para con la tarjeta, es lo que se busca con Incentivos los cuales podrán ser otorgados como puntos, millas o números de loterías asignados de acuerdo a parámetros como: marca, bin, comercio, ciudad, categoría, entre otros. Adicional, regularmente en temporada alta de consumos (Navidad), otorgar aleatoriamente un premio de acuerdo a una frecuencia dada (hora/numero de transacciones).
+                              <br />  <br />
+                            Las Renovaciones masivas de tarjetas próximas a expirar es puesta en consideración de acuerdo a parámetros que califican el comportamiento que tuvo el cliente: estado de la cuenta, morosidad, edad de vencido, cheques protestados. El usuario podrá evaluar los resultados: autorizar o negar las renovaciones (dada por los parámetros).
+                              <br />  <br />
+                            Por BackOffice, procesos especiales de operaciones, ingresarán: vouchers manuales, evaluar las transacciones rechazadas, contracargos automáticos, protestar o autorizar pagos con cheques, reversar/eliminar transacciones procesadas dentro del ciclo. 
+                              <br /><br />
+                              <a href="#TC" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>
+						  </div>
+						</div>
+					  </div>
+
+       					    <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" >
+							  <i class="fa fa-plus fa-lg"></i>Solicitudes
+							</a>
+						  </h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+							Administra los programas de captación de nuevos clientes controlando su ciclo completo de estudio, calificación, consulta automática a centrales de riesgo para su posterior aprobación o negación. 
+
+                            <br /><br />Registra de manera detalla toda la información del cliente: datos generales, 'n' direcciones, 'n' teléfonos, 'n' referencias familiares, bancarias, inversiones, pasivos, vehículos, propiedades y laborales.  
+                            <br /> <br />El proceso de solicitudes es totalmente parametrizable: Scoring, Ejecutivos y Etapas. El Scoring califica los diferentes atributos del cliente (edad, sexo, estado civil) asignado valores puntos, la sumatoria y peso de los puntos determinará al final: la negación o aprobación de la solicitud, requerimiento de garantes, la asignación de cupos, bin y producto.
+                            <br /><br />Las solicitudes cumplen con los niveles de seguridad pasando por las Etapas de Ingreso, Investigación, Recomendación y Aprobación. Uno o varios Ejecutivos están asignados a la cada una de las etapas, cada Ejecutivo visualiza y procesa sólo las solicitudes que le fueron asignadas de manera automática por balanceo.
+                            <br /><br />Cada solicitud mantiene para efectos de documentación y consulta, copias en imágenes digitalizadas de los documentos soporte de la solicitud. 
+                              <br /><br />
+                              <a href="#SOL" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>
+						  </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
+							   <i class="fa fa-minus fa-lg"></i>Plásticos
+							</a>
+						  </h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							Automatiza la operación de impresión y magnetización de tarjetas para nuevas solicitudes, renovaciones o cambios de plásticos mediante interfaces (directa o archivo) a máquinas DATACARD © u otras reconocidas en la industria.
+                              <br /><br />
+                            Interactúa con los módulos de Solicitudes y Tarjetas e incrementa la seguridad de la operación con un control individual de los plásticos, desde su orden de generación hasta la recepción por parte del cliente.
+                            <br /><br />
+                            El enviar y recibir los plásticos impresos entre una ubicación y otra, permitirá conocer el inventario: quien los tiene y cuantos tiene. Las ubicaciones: Troquelación, Ensobretado, Distribución, Medios, Destinos y Entrega, marcarán el ciclo de vida del plástico que podrá ser consultado en línea.
+                            <br /><br />
+                              <a href="#PLAS" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+                          </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse7" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i>Administración y Gestión de Seguridad
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse7" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+							Este módulo es el administrador de SysCards. Configura, bajo normas de auditoría y control de Sistemas, la creación de empresas, oficinas, productos, usuarios, perfiles, transacciones, catálogos y calendarios; adicionalmente muestra estadísticas de tiempos de respuestas, consulta de auditorías de transacciones, usuarios conectados, entre otras cosas. 
+                            <br />  <br />
+                            Administra igualmente los perfiles de usuario para agrupar transacciones autorizadas y productos autorizados y en general es responsable por todas las características de seguridad que debe tener la instalación en todos y cada uno de sus módulos.
+ 						  <br />  <br />
+                              <a href="#ADM" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+                          </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse8" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i>SysDebit, Tarjetas de Débito
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse8" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+							Un completo módulo para la administración de las tarjetas de débito. Creación de Clientes, generando el número de tarjeta de acuerdo a los parámetros establecidos, asociando la tarjeta en línea a sus cuentas de ahorros o corriente. Luce como un sistema intermedio conectado en línea con el Core Bancario donde residen los saldos de las cuentas de ahorros o corriente, y con los medios de pagos que generan el requerimiento: Cajeros automáticos (ATMs), Puntos de ventas (POS), Internet, etc. SysDebit se apoya en Switch transaccional para conectarse con estas redes o medios; utiliza WebServices para la conexión con el Core bancario.
+                              <br />  <br />
+                            Lleva un control del inventario de los plásticos (nominados e innominados) desde que son solicitados a los proveedores de plásticos hasta la asignación y entrega de estos al cliente, las diferentes ubicaciones y destinos determinan cuantos y quienes tienen los plásticos. Las controversias y/o reclamos (contracargos, cobros, fraudes, etc.) son manejados en el mismo módulo de Intercambio utilizado para las tarjetas de Crédito en SysCards.
+                              <br />  <br />
+                              <a href="#DEBIT" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse11" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i>Switch
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse11" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+							El Switch es el módulo que permite a SysCards y a SysDebit integrarse o conectarse con las franquicias Visa, MasterCard, American Express y Union Pay, con todas ellas se ha certificado múltiples veces. Es factible conectarse a cualquier otra red sea POS, ATM, comercios específicos, etc., utilizando TCP/IP como protocologo de comunicaciones y ISO8583 como mensajería o tramas por defecto, adicional, las tramas o mensajería pueden parametrizarse de acuerdo a lo requerido. 
+                              <br />  <br />
+                                Las características principales del Switch son: 
+                              <br />
+                                1.	MultiCanal, ‘n’ canales se configuran a nivel de pantallas tipo parámetros, capacidad de configurar canales a nivel de configuración sin necesidad de desarrollo.
+                              <br />
+                                2.	MultiFormatos, configuración dinámica de mensajería ISO ó propietaria. 
+                              <br />
+                                3. Usar configuración desde Browser HTML 
+                              <br />
+                                4. Integración con caja de Seguridad con todas las funcionalidades. En la versión del Switch en .Net están implementadas dichas funcionalidades por software. 
+                              <br />
+                                5. Permitir monitorear los servicios desde browser. 
+                              <br />
+                                6. Capacidad de autorizar standin vía archivo positivo mas parámetros. Para esto el Switch se debe integrar con una base local que puede ser MS SQL. 
+                              <br />
+                                7. Soportar nueva característica para servidores VEA (VISA). 
+                              <br />
+                                8. Integración y Certificación con VISA, MasterCard, American Express y Union Pay.
+                              <br />
+                                9. Excelente tiempos de respuestas.
+                              <br />
+                                10. Opera en cliente que poseen mas de 2 millones de tarjetas.
+                              <br />
+                                11. En temporada alta se ha llegado a procesar hasta 20 transacciones por segundo.
+                              <br />
+                                12.	Programación orientada a Servicios.
+                              <br />
+                              <br />
+                                Las funcionalidades principales son: 
+                              <br />
+                                1. Recibir transacciones de rol emisor. 
+                              <br />
+                                2. Generar transacciones para rol adquirente 
+                              <br />
+                                3. Soporte para mensaje Iso8583 con los diferentes tipos de variantes. 
+                              <br />
+                                4. Soporte browser tanto para administración como para monitoreo. 
+                              <br />
+                                5. Fácil desarrollo de nuevas transacciones según las necesidades del cliente a través de clases y métodos. 
+                              <br />
+                                6. Generar logs 
+                              <br />
+                                7. Monitoreo 
+                              <br />
+                                8. Estadísticas y tiempos de respuestas 
+                              <br />
+                                9. Mayor protección de código lo cual mejora la estabilidad pues no existen violaciones de memoria. 
+                              <br />
+                                10. Mejora en herramientas para debug. 
+                              <br />
+                                11. Interfase de desarrollo robusta y sumamente amigable (Visual Studio)..
+                              <br />
+                              <br />  
+                              <a href="#SWITCH" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+                              <a target="_blank" href="https://techsoft.com.ec/VideosSwitch.html" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Videos</a>  
+							  
+						  </div>
+						</div>
+					  </div>
+					</div>
+					</div>
+					
+					<div class="col-md-6 a-t-2">
+						<div class="panel-group" id="accordion-2">
+					        <div class="panel panel-default">
+						<div class="panel-heading ">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse4" class="collapsed">
+							  <i class="fa fa-plus fa-lg"></i> Autorizaciones
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse">
+						  <div class="panel-body" style="text-align:justify">
+							Conecta SysCards en línea y tiempo real con las Redes Mundiales de Procesamiento de Transacciones Débito/Crédito de la industria como: MasterCard, VISA y American Express así como a Redes que manejan POS en comercios y cualquier otro medio como ATMS, WEB, etc. 
+                             <br /><br />
+                             SysCards posee un Switch que le permite actuar como Emisor y/o Adquirente. La interface ISO-8583 con protocolos de comunicación de industria está implementada con medición y monitoreo de tiempos de respuesta y de ‘up time’ para asegurar un excelente servicio a los clientes. SysCards tiene dos opciones para manejar la seguridad de llaves así como los algoritmos de encripción, validación de pin, etc.; la primera opción es por HardWare, accesando al HSM, hemos certificado con las marcas Atallla y Thales; la segunda opción es por Software para lo cual contamos con nuestro propio módulo Modulo Keys.
+                              <br /><br />
+                             Al procesar la petición de una autorización, parámetros especiales tales como la otorgación de cupos adicionales, porcentajes de sobregiro, ó, excepciones a validaciones, pueden asociarse a clientes específicos o de manera general.  
+                              <br /><br />
+                            En línea SysCards permitirá ingresar Límites de actividad, Alertas de Fraudes, Bloqueos y Excepciones, los cuales serán relacionados por Marca, Pais, Bin, Comercio, etc. Los Limites de Actividad permiten realizar un numero y monto máximo de consumos por día, semana y/o mes. Las Alertas de Fraudes permiten monitorear y calificar el comportamiento de los consumos de un cliente, previniendo un posible fraude. Los bloqueos permiten negar toda petición de autorización que provenga de una ubicación especifica.
+                              <br />  <br />
+                              <a href="#AUTO" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+
+					        <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="collapsed">
+							   <i class="fa fa-minus fa-lg"></i> Comercios
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse5" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							Este es un completo módulo para manejar e interactuar con los comercios afiliados; todos los datos necesarios del comercio son registrados para la identificación, control, cuadre, facturación y liquidación, tanto como emisor y/o como adquirente. 
+                              <br /><br />
+                            Como resumen, destacamos las siguientes bondades:
+                               <br />
+                              <p style="margin-left:35px">
+                            •	Registro detallado del comercio: Ruc, Razón social, dirección, teléfonos, representante legal, contactos, oficial, máximo monto de consumo, etc.<br />
+                            •	Estadístico: Calificación, riesgo, cancelación, reactivación, ultimo consumo.<br />
+                            •	Marcas afiliadas: Visa, MasterCard, Amex, Privadas, etc., Bines, Productos.<br />
+                            •	Limites de Piso por Marca y Bin.<br />
+                            •	Cadenas de comercios:  Matriz - Filial.<br />
+                            •	Registro de POS instalado en el comercio: Marca, Serie, Modelo, estado, etc.<br />
+                            •	Forma de pago al comercio con cheque, crédito a cuenta, transferencia interbancaria.<br />
+                            •	La  Fecha de Pago configurable de acuerdo al tipo de consumo (rotativo / diferido),  pago inmediato, fecha especifico, día especifico ó después de 'n' días. Adicionalmente según los tipos de diferidos, se liquida el pago al comercio ya sea cuando ingresa el diferido o a medida que se cobra la cuota al cliente.<br />
+                            •	Valor de las Comisiones  configurable por Marca, giro, comercio, Bin, Producto, tipo de consumo, plazo.<br />
+                            •	Método para el cobro de comisiones: sobre el total, subtotal, etc.<br />
+                            •	Liquidación automática y/o manual. Detalle de liquidaciones. Ajustes.<br />
+                            •	Impresión de cheques, facturas y comprobantes.<br />
+                            •	Consulta estadísticas de liquidaciones, pagos, detalles, etc.<br />
+                            •	Reportes cuadre de Liquidación.
+                                  </p>
+                              <br />  <br />
+                              <a href="#COM" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+
+					        <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse9" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i> Intercambio
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse9" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							El módulo de Intercambio, implementa el control de todo el ciclo de controversias y disputas en total conformidad a las normas de operación de las franquicias internacionales diligenciando automáticamente los formatos necesarios para dicho proceso, de esta manera se minimizan cargas operativas para la institución.
+                              <br /><br />
+                            Los procesos de Incoming y Outgoing alimentarán a este módulo el cual relacionará los consumos y transacciones que se realicen por el número de referencia estándar. Los usuarios visualizan los datos completos de los consumos que llegaron por incoming. Todos los tipos de transacciones están habilitados (contracargos, copias de vouchers, segundas presentaciones, etc.).
+                              <br /><br />
+                            Existe un control parametrizado de Operaciones/Limites que permite observar los tiempos de entrega y resolución de disputas, los usuarios recibirán vía email, de acuerdo al tipo de transacción, aquellas transacciones que están por vencer; de esta manera se minimiza el perder disputas por el no envío de información a tiempo.
+                              <br />  <br />
+                              <a href="#INTER" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse10" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i> Batch
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse10" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							Permite la ejecución del proceso Batch, ejecuta uno a uno los programas que lo conforman los cuales generarán los reportes y archivos de salida. Genera un completo juego de reportes necesarios en el manejo diario de las funciones en los distintos departamentos y reportes que permiten realizar todos los controles requeridos a nivel contable y operativo.
+                              <br /><br />
+                            Cabe indicar que SysCards mantiene sus saldos en Línea, es decir, toda transacción que ingresa es procesada y aplicada al saldo en ese mismo instante.
+                              <br /><br />
+                            La carga de archivos es totalmente parametrizada, nuevos archivos se agregan especificando origen y formato del registro, así como, la reglas de validaciones que se aplicarán al procesar un registro, cliente o consumo. Los archivos de incoming y generación de outgoing son procesados y generados en este módulo; otros procesos especiales como el envío de estados de cuenta por email están habilitados.
+                              <br />  <br />
+                              <a href="#BATCH" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+
+						  </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse6" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i> SysKeys
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse6" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							Contiene los módulos de encripción y seguridad requeridos en la industria para la generación de plásticos, claves de usuario (PINs), generación y validación de CVV, PVV y el CVV2 y demás aspectos de seguridad requeridos por las franquicias internacionales.
+                             <br /><br />
+                            Adicionalmente implementa los protocolos y requerimientos necesarios por los módulos de seguridad en hardware (HSM) para el almacenamiento y procesamiento seguro de llaves de encripción en dispositivos de hardware requeridos en la industria. 
+                              <br /><br />
+                            Ambas opciones: por SoftWare y HardWare, están disponibles para su implantación, dependerá de los productos que el cliente desee instalar.
+                              <br />  <br />
+                              <a href="#KEY" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+
+                            <div class="panel panel-default">
+						<div class="panel-heading">
+						  <h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse12" class="collapsed">
+								 <i class="fa fa-minus fa-lg"></i> Cobranzas
+							</a>
+						  </h4>
+						</div>
+						<div id="collapse12" class="panel-collapse collapse">
+						  <div class="panel-body"style="text-align:justify">
+							Permite aumentar significativamente el número de contactos efectivos con los clientes que sumado a una estrategia adecuada de cobranza se traduce en un mayor número de promesas de pago y por ello en un mejor resultado en la recuperación de cobranza. También mejora la relación existente entre el personal de cobranza y los clientes, evitando las molestias de una cobranza repetitiva.
+                              <br /><br />
+                            Al estar integrado completamente a SysCards permite observar en línea los pagos, abonos y créditos realizados. La cartera es distribuida de manera manual y automática, lo que hace posible realizar análisis periódicos sobre la efectividad del equipo de trabajo.
+                              <br /><br />
+                            Las gestiones de cobranzas son realizadas por los gestores de cobros, los cuales tendrán asignada su cartera a recuperar de acuerdo a los parámetros ingresados por Marca, Ciclo, edad y monto vencido, región, etc. Durante la gestión los Gestores proceden con la llamada de acuerdo a un orden parametrizado, se crean o no compromisos de pagos y/o recordatorios de llamadas.
+                              <br />  <br />
+                              <a href="#COBR" class="cbp-lightbox cbp-l-caption-buttonRight">Ver Pantalla</a>  
+						  </div>
+						</div>
+					  </div>
+					</div>
+					</div>
+					
+					</div>
+					
+					
+				
+				</div>
+		</section>
+        <figure id="TC" class="lbox bounce">
+            <img src="https://techsoft.com.ec/Imagenes/pantallas/TarjetaCredito.jpg"/>
+            <a href="#_"></a>
+        </figure>
+        <figure id="SOL" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Solicitudes.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="PLAS" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Plasticos.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="ADM" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Administracion.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="DEBIT" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Debito.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="SWITCH" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Switch1.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="AUTO" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Autorizaciones.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="COM" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Comercios.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="INTER" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Intercambio.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="BATCH" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Batch.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="KEY" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/SysKeys.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+        <figure id="COBR" class="lbox bounce">
+                    <img src="https://techsoft.com.ec/Imagenes/pantallas/Cobranzas1.jpg"/>
+                    <a href="#_"></a>
+        </figure>
+
+
+        <p id="Licencias"style="margin:0 0 0px">
+            </p>
+
+        <section class="support-staff">
+			<div class="container">
+				<div class="container pricing-tables">
+					<div class="heading-pricing">
+						<h1><span class="color">LICENCIA</span></h1>
+					</div>
+				</div>
+				<div class="col-md-6" style="text-align:justify">
+					<ul class="support-points"style="margin-left:30px;margin-right:30px">
+						<li>El costo para el uso de la Licencia SysCards dependerá de cuatro factores:
+                            <p style="margin-left:35px;margin-bottom:0px">
+                                <b>1.</b>	Licencia Procesador o Licencia Empresa. SysCards está diseñado para procesar con una misma Licencia una Empresa o múltiples Empresas. La Licencia Procesador es necesaria para las Empresas Procesadoras, aquellas que dan servicios a unos o varios Bancos o Comercios para procesar sus tarjetas. La Licencia Empresa es aquella utilizada sólo para procesar y administrar sus propias tarjetas de la Empresa.
+                                <br /><b>2.</b>	SysCards está diseñado para procesar todo tipo de tarjetas de crédito o débito. Existe el costo diferenciado para Empresas de acuerdo al tipo de Tarjetas que poseen.
+                            </p>
+                                <p style="margin-left:70px;margin-bottom:0px">
+                                   <b>a.</b>	El costo de Licencia por Franquicias se aplicará cuando la Empresa emita tarjetas de las marcas Visa, MasterCard, American Express o Union Pay. 
+                                    <br /><b>b.</b>	El costo de Licencia por Propietarias se aplicará cuando la Empresa sólo emita tarjetas Propietarias o también conocidas como cerradas.
+                                    <br /><b>c.</b>	El costo de Licencia también es diferenciado cuando se requiere emitir o procesar tarjetas de Crédito y/o Débito.
+                                </p>
+                            <p style="margin-left:35px;margin-bottom:0px">
+                                <b>3.</b>	Licencia con o sin Switch Transaccional.
+                                <br /><b>4.</b>	Licencia con o sin programas fuentes.
+                            </p>
+						</li>
+						<li>Al obtener la licencia, estas podrán ser utilizadas como:
+                            <p style="margin-left:35px;margin-bottom:0px">
+                            <i class=" fa fa-check" ></i>Ilimitado número de usuarios.
+                            <br /><i class=" fa fa-check" ></i>Ilimitado número de estaciones.
+                            <br /><i class=" fa fa-check" ></i>Ilimitado número de Cuentas y Tarjetas.
+                            <br /><i class=" fa fa-check" ></i>Ilimitado número de Productos, bines y afinidades.
+                            <br /><i class=" fa fa-check" ></i>Módulos Emisor y Adquirente.
+                                </p>
+                            <p style="margin-left:70px;margin-bottom:0px">
+                                <i class=" fa fa-circle-o" ></i>Clientes.
+                                <br /><i class=" fa fa-circle-o" ></i>Solicitudes.
+                                <br /><i class=" fa fa-circle-o" ></i>Plásticos.
+                                <br /><i class=" fa fa-circle-o" ></i>Tarjetas – Gestiones – BackOffice.
+                                <br /><i class=" fa fa-circle-o" ></i>Comercios.
+                                <br /><i class=" fa fa-circle-o" ></i>Batch, manejo de archivos.
+                                <br /><i class=" fa fa-circle-o" ></i>Autorizaciones.
+                                <br /><i class=" fa fa-circle-o" ></i>Alertas, transacciones fraudulentas.
+                                <br /><i class=" fa fa-circle-o" ></i>Intercambio.
+                                <br /><i class=" fa fa-circle-o" ></i>Administración.
+                                <br /><i class=" fa fa-circle-o" ></i>Reportes
+                                <br /><i class=" fa fa-circle-o" ></i>Interfaces
+                                </p>
+                            <p style="margin-left:35px;margin-bottom:0px">
+                            <br /><i class=" fa fa-check" ></i>Instalación en ambientes: 
+                                </p>
+                            <p style="margin-left:70px;margin-bottom:0px">
+                               <i class=" fa fa-circle-o" ></i>Producción.
+                                <br /><i class=" fa fa-circle-o" ></i>Contingencia.
+                                <br /><i class=" fa fa-circle-o" ></i>Alta disponibilidad.
+                                <br /><i class=" fa fa-circle-o" ></i>Desarrollo ‘n’ ambientes.
+                                <br /><i class=" fa fa-circle-o" ></i>Pruebas y Certificación ‘n’ ambientes.
+                                </p>
+						</li>
+                        <li>La Licencia de SysCards es instalada como de Uso no exclusiva, no transferible. Si la licencia es adquirida sin programas fuentes, los programas son instalados y entregados en modo Objeto, y, los programas fuentes son entregado a modo Custodia solo para uso en caso de desastres o posibilidad de adquirirlos a futuro.</li>
+					</ul>
+				</div>
+
+                <div class="col-md-6" style="text-align:justify">
+					<ul class="support-points" style="margin-left:30px;margin-right:30px">
+						
+						<li>El soporte sobre la licencia adquirida es facturado cada año, (en el mes que fue implantado) se factura el 18% sobre el costo final de las licencias; este costo no aplica con la opción de licencia con programas fuentes; el soporte incluye:
+                            <p style="margin-left:35px;margin-bottom:0px">
+                            <i class=" fa fa-check" ></i>Soporte a problemas reportados en la versión.  En caso que TechSoft ya posea la solución al problema, será entregada a la Empresa.  En caso que no exista, el problema debe ser revisado por TechSoft y generar la solución correspondiente.
+                            <br /><i class=" fa fa-check" ></i>Soporte a Cambios y Reglamentaciones de la Franquicia.
+                            <br /><i class=" fa fa-check" ></i>Soporte a cambios regulatorios de ley simple del país. Lo simple significa que el cambio tomará un tiempo menor a tres días.
+                            <br /><i class=" fa fa-check" ></i>Soporte en actualización de sistema operativo.
+                            <br /><i class=" fa fa-check" ></i>Soporte en actualización de Base de Datos.
+                            <br /><i class=" fa fa-check" ></i>Soporte en caso de falla de los equipos de la Empresa y asesoría en los procesos de recuperación.
+                            <br /><i class=" fa fa-check" ></i>Asistencia en la instalación de Ambientes de Contingencia que posea la Empresa.
+                            <br /><i class=" fa fa-check" ></i>Soporte telefónico ó Skype, llamando a los números de celulares y fijos para la ubicación.
+                                </p>
+						</li>
+                        <li>Es factible también acceder al uso de SysCards por medio de la renta de la Licencia, para este caso, se factura de manera mensual de acuerdo al número de tarjetas activas, en este monto ya está incluido el valor del soporte anual. La Empresa tendrá la opción de Compra de Licencia a partir del quinto año de implementada la solución.</li>
+                        <li><b>MANTENIMIENTO – REQUERIMIENTOS</b>
+                            <br />Luego de la Implementación, el mantenimiento y/o requerimientos lo manejamos bajo dos modalidades, la Empresa deberá escoger la que necesite. La Empresa tiene la opción que el mantenimiento sea manejado por su personal y sólo los nuevos requerimientos sean manejados por TechSoft. 
+                        </li>
+                        <li><p style="margin-left:35px;margin-bottom:0px">
+                            <i class=" fa fa-star-o" ></i><b>Modalidad 1, Recurso a demanda</b>
+                            <br />Bajo esta modalidad, la Empresa solicita o envía novedades, incidentes y/o requerimientos. En ese instante se asigna el recurso el cual resolverá la novedad o atenderá el requerimiento. Se factura por hora o por día el tiempo que tomó la resolución. 
+                            </p>
+                        </li>
+                        <li><p style="margin-left:35px;margin-bottom:0px">
+                            <i class=" fa fa-star-o" ></i><b>Modalidad 2, Recurso permanente</b>
+                            <br />Bajo esta modalidad, la Empresa tiene asignado el(los) recurso(s) a tiempo completo para atender las novedades, incidentes y/o requerimientos; TechSoft factura un valor fijo mensual de acuerdo al número de recursos permanente que pueden estar en sitio o en nuestras oficinas. La Empresa coordina la asignación de las tareas, tiempos.  
+                            </p>
+                        </li>
+                        <li>La Empresa siempre contará con el apoyo en el análisis para la implementación de nuevos requerimientos; así como la mejor manera de atender una novedad o incidente. Para ambas modalidades, la Empresa asigna y coordina directamente con el recurso de TechSoft asignado. El recurso de TechSoft entregará la solución, pruebas realizadas, certificación interna y los programas y/o script que se deberán pasar a producción. Será la Empresa quien certifique en un ambiente de Pre-Producción el pase a Producción; una vez certificado en este ambiente, los programas serán liberados en Producción por la Empresa.
+                        </li>
+                        <li>Los incidentes o novedades relacionados a la versión que se implementó están cubierto dentro del soporte. Los incidentes y/o novedades que no correspondan o no estén relacionado con la versión, son tratados en este punto. Por ejemplo: un incidente podría ser transacciones enviadas en el OutGoing y que estén quedando rechazadas. El recurso deberá revisar el error, investigar la causa y reenviar la transacción, puede ser que la causa sea por el no envío de un campo que no envió el POS, el nombre del comercio no es correcto, etc. Otro incidente puede ser la carga de archivos con clientes a los cuales no se les debía aplicar un determinado costo; para este caso el recurso deberá, analizar el error, luego crear un programa para que elimine o haga las n/c correspondientes.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		
+		<footer>
+			
+		</footer>
+		
+		<section class="bottom-bar">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="left">© 2018 All Rights Reserved. </div>
+				</div>
+			</div>
+		</section>
+		
+		
+	
+	<!-- Jquery Libs -->
+	<!-- Latest Version Of Jquery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap.js -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- Sticky PLugin -->
+	<script src="js/jquery.sticky.js"></script>
+	<!-- jQuery REVOLUTION Slider  -->
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<!-- Wow Plugin -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!--Easing animations Plugin -->
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!--To-Top Button Plugin -->
+    <script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+	<!-- SmoothScroll Plugin -->
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/modernizr-latest.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/uisearch.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+	<!-- Cube Portfolio -->
+	<script type="text/javascript" src="js/jquery.cubeportfolio.min.js"></script>
+	<script type="text/javascript" src="js/cbp-1.js"></script>
+	<!-- 3D slider JS File -->
+    <script type="text/javascript" src="js/jquery.3dgallery.js"></script>
+	<!-- TYPED JS -->
+	<script type="text/javascript" src="js/typed.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+
+
+
+	<script type="text/javascript" src="js/switcher.js"></script>
+
+
+	<!-- Theme Custom -->
+	<script type="text/javascript" src="js/preloaders.js"></script>
+	<!-- End Jquery Libs -->
+	<script src="https://techsoft.com.ec/js/techsoft.common.js"></script>
+	
+	
+	<script>
+	    new WOW().init();
+	</script>
+	
+	<script>
+	    jQuery().UItoTop({ easingType: 'easeOutQuart' });
+
+	</script>
+    
+    
+
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!-- End Jquery Libs -->
+	
+	</body>
+	</html>
